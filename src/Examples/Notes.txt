@@ -1,0 +1,22 @@
+// functional interfac is a interfcae which contains only one method in a interface 
+and there are four pillers of java 8 
+1.Consumer 
+2. Predicate 
+3. Function 
+4. Supplier
+ in java 8 functional interface its allow to  create a one abstract method and more than one statis and default method .
+
+ //Consumer
+ Consumer: An interface that takes one input and performs an action, but returns nothing.
+  Usage: Often used for operations like printing or modifying elements in a collection.
+
+ //preticate 
+ it always return boolean value 
+ Predicate: Checks a condition and returns true or false.
+Single input, boolean output.
+Usage: Commonly used for filtering data.
+
+//Supplier 
+when we need some data and we don't need any information and you need to get the some data 
+so those kind of scenarios you can go for Supplier functional interfac
+it has a method get() it return the  this particular return type

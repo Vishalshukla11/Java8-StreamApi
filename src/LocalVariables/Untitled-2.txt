@@ -1,0 +1,6 @@
+//Local variables 
+
+lambdas are allowed to use local variable but not allowed for modification [effectively final]
+// concurrency operation are effective in thet way
+// class level variable or instance variables are allowed to modify
+// effectively final 
